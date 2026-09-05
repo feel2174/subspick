@@ -17,15 +17,15 @@ export function ReviewShowcase() {
     <section className="w-full">
       {/* Header & Stats */}
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-800/80 pb-6">
-        <div>
+        <div className="break-keep">
           <div className="inline-flex items-center gap-1.5 rounded-full border border-cyan-500/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-400">
             <ShieldCheck className="h-3.5 w-3.5" />
             검증된 실사용자 솔직 후기
           </div>
-          <h2 className="mt-2 text-2xl font-extrabold text-white">
+          <h2 className="mt-2 text-2xl font-extrabold text-white break-keep">
             이용자들이 직접 말하는 <span className="gradient-text-emerald">생생한 절약 경험</span>
           </h2>
-          <p className="mt-1 text-xs sm:text-sm text-slate-400">
+          <p className="mt-1 text-xs sm:text-sm text-slate-400 break-keep">
             광고 없는 실제 구독자들의 솔직한 이용 후기와 팁을 확인하세요.
           </p>
         </div>

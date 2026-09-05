@@ -46,15 +46,15 @@ export function SavingsCalculator({ defaultSelected = ["youtube-premium", "netfl
     <div className="w-full rounded-2xl border border-slate-800 bg-gradient-to-b from-slate-900/90 to-slate-950/95 p-5 shadow-2xl backdrop-blur-xl sm:p-8">
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800/80 pb-6">
-        <div>
+        <div className="break-keep">
           <div className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-400">
             <Sparkles className="h-3.5 w-3.5" />
             실시간 구독료 절약 시뮬레이터
           </div>
-          <h2 className="mt-2 text-xl font-extrabold text-white sm:text-2xl">
+          <h2 className="mt-2 text-xl font-extrabold text-white sm:text-2xl break-keep">
             내가 쓰는 구독 서비스, <span className="gradient-text-emerald">얼마나 아낄 수 있을까?</span>
           </h2>
-          <p className="mt-1 text-xs sm:text-sm text-slate-400">
+          <p className="mt-1 text-xs sm:text-sm text-slate-400 break-keep">
             현재 이용 중이거나 관심 있는 서비스를 클릭해 절약 금액을 확인해보세요.
           </p>
         </div>
@@ -143,7 +143,7 @@ export function SavingsCalculator({ defaultSelected = ["youtube-premium", "netfl
           </div>
 
           {/* Big Savings Metric */}
-          <div className="flex flex-col items-center justify-center text-center">
+          <div className="flex flex-col items-center justify-center text-center break-keep">
             <span className="text-xs font-bold tracking-wider uppercase text-emerald-400">
               연간 절약 예상액 ({savingsPercent}% 절감)
             </span>
@@ -153,7 +153,7 @@ export function SavingsCalculator({ defaultSelected = ["youtube-premium", "netfl
               </span>
               <span className="text-lg font-bold text-slate-300"> 원</span>
             </div>
-            <p className="mt-1 text-xs text-slate-400">
+            <p className="mt-1 text-xs text-slate-400 break-keep">
               💡 <span className="font-medium text-slate-200">{savingAnalogy}</span> 절약 효과!
             </p>
           </div>

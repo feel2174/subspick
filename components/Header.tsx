@@ -25,32 +25,32 @@ export function Header() {
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-300">
           <Link
             href="/calculator"
-            className="flex items-center gap-1.5 transition-colors hover:text-emerald-400"
+            className="flex items-center gap-1.5 transition-colors hover:text-emerald-400 whitespace-nowrap"
           >
             <Calculator className="h-4 w-4 text-emerald-400" />
             절약 계산기
           </Link>
           <Link
             href="/youtube-premium"
-            className="transition-colors hover:text-emerald-400"
+            className="transition-colors hover:text-emerald-400 whitespace-nowrap"
           >
             유튜브 프리미엄
           </Link>
           <Link
             href="/netflix"
-            className="transition-colors hover:text-emerald-400"
+            className="transition-colors hover:text-emerald-400 whitespace-nowrap"
           >
             넷플릭스 4K
           </Link>
           <Link
             href="/chatgpt-plus"
-            className="transition-colors hover:text-emerald-400"
+            className="transition-colors hover:text-emerald-400 whitespace-nowrap"
           >
             챗GPT Plus
           </Link>
           <Link
             href="/scam-check"
-            className="flex items-center gap-1 text-slate-400 transition-colors hover:text-slate-200"
+            className="flex items-center gap-1 text-slate-400 transition-colors hover:text-slate-200 whitespace-nowrap"
           >
             <ShieldCheck className="h-4 w-4 text-cyan-400" />
             사기 팩트체크

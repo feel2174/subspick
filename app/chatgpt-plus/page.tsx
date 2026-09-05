@@ -67,18 +67,18 @@ export default function ChatGptPlusPage() {
       />
 
       {/* Header */}
-      <div className="space-y-4 text-center">
+      <div className="space-y-4 text-center break-keep">
         <div className="inline-flex items-center gap-1.5 rounded-full border border-cyan-500/30 bg-cyan-950/40 px-3.5 py-1 text-xs font-semibold text-cyan-400">
           <Bot className="h-3.5 w-3.5" />
           AI 구독료 반값 절약
         </div>
-        <h1 className="text-3xl font-black text-white sm:text-5xl">
+        <h1 className="text-3xl font-black text-white sm:text-5xl break-keep">
           챗GPT 플러스 가격할인,
           <br />
           <span className="gradient-text-emerald">월 1만원대</span>로 부담 없이 쓰기
         </h1>
-        <p className="text-sm sm:text-base text-slate-400 max-w-xl mx-auto">
-          환율 때문에 매달 28,000원 넘게 나가는 ChatGPT Plus. 겜스고로 반값 이상 아끼고 Claude와 Perplexity까지 스마트하게 활용하세요.
+        <p className="text-sm sm:text-base text-slate-400 max-w-xl mx-auto break-keep">
+          환율 때문에 매달 28,000원 넘게 나가는 ChatGPT Plus. <span className="whitespace-nowrap">겜스고(GamsGo)</span>로 반값 이상 아끼고 Claude와 Perplexity까지 스마트하게 활용하세요.
         </p>
       </div>
 

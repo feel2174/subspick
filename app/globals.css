@@ -10,11 +10,28 @@
   --accent-purple: #8b5cf6;
 }
 
+*, *::before, *::after {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+html {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
 body {
   background-color: var(--bg-primary);
   color: #f1f5f9;
   font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, button, li, label {
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 /* Glassmorphism utility */

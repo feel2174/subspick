@@ -52,15 +52,15 @@ export function ServiceGrid() {
               </div>
 
               {/* Title & Price */}
-              <h3 className="mt-4 text-lg font-bold text-white group-hover:text-emerald-300 transition-colors">
+              <h3 className="mt-4 text-lg font-bold text-white group-hover:text-emerald-300 transition-colors break-keep">
                 {service.name}
               </h3>
 
-              <div className="mt-3 flex items-baseline gap-2">
-                <span className="text-2xl font-black text-emerald-400">
+              <div className="mt-3 flex items-baseline gap-2 flex-wrap">
+                <span className="text-2xl font-black text-emerald-400 whitespace-nowrap">
                   {service.gamsgoPriceText}
                 </span>
-                <span className="text-xs text-slate-500 line-through">
+                <span className="text-xs text-slate-500 line-through whitespace-nowrap">
                   정가 {service.officialPriceText}
                 </span>
               </div>

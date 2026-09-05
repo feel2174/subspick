@@ -23,15 +23,15 @@ export default function HomePage() {
           <span>2026 구독료 인상 완벽 방어</span>
         </div>
 
-        <h1 className="mt-5 text-3xl font-black tracking-tight text-white sm:text-5xl lg:text-6xl max-w-4xl leading-[1.15]">
+        <h1 className="mt-5 text-3xl font-black tracking-tight text-white sm:text-5xl lg:text-6xl max-w-4xl leading-[1.2] break-keep">
           매달 새어나가는 구독료,
           <br />
           <span className="gradient-text-emerald">최대 70%</span> 스마트하게 아끼세요
         </h1>
 
-        <p className="mt-4 text-sm sm:text-base text-slate-400 max-w-2xl leading-relaxed">
+        <p className="mt-4 text-sm sm:text-base text-slate-400 max-w-2xl leading-relaxed break-keep">
           유튜브 프리미엄 월 6,900원, 넷플릭스 4K 월 5,000원, 챗GPT Plus 반값.
-          검증된 계정 공유 플랫폼 <span className="font-semibold text-slate-200">겜스고(GamsGo)</span> 공식 제휴 특가로 안전하게 이용하세요.
+          검증된 계정 공유 플랫폼 <span className="font-semibold text-slate-200 whitespace-nowrap">겜스고(GamsGo)</span> 공식 제휴 특가로 안전하게 이용하세요.
         </p>
 
         {/* Action Buttons */}

@@ -68,17 +68,17 @@ export default function YoutubePremiumPage() {
       />
 
       {/* Header */}
-      <div className="space-y-4 text-center">
+      <div className="space-y-4 text-center break-keep">
         <div className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-950/40 px-3.5 py-1 text-xs font-semibold text-emerald-400">
           <Sparkles className="h-3.5 w-3.5" />
           공식 정가 대비 연 96,000원 절약
         </div>
-        <h1 className="text-3xl font-black text-white sm:text-5xl">
+        <h1 className="text-3xl font-black text-white sm:text-5xl break-keep">
           유튜브 프리미엄 가격할인,
           <br />
           <span className="gradient-text-emerald">월 6,900원대</span>로 구독하는 법
         </h1>
-        <p className="text-sm sm:text-base text-slate-400 max-w-xl mx-auto">
+        <p className="text-sm sm:text-base text-slate-400 max-w-xl mx-auto break-keep">
           터키·인도 VPN 우회 결제 막힘과 계정 정지 위험 없이, 기존 한국 구글 계정 그대로 안전하게 이용하세요.
         </p>
       </div>

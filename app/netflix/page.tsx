@@ -67,17 +67,17 @@ export default function NetflixPage() {
       />
 
       {/* Header */}
-      <div className="space-y-4 text-center">
+      <div className="space-y-4 text-center break-keep">
         <div className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-950/40 px-3.5 py-1 text-xs font-semibold text-emerald-400">
           <Sparkles className="h-3.5 w-3.5" />
           공식 정가 대비 최대 70% 할인
         </div>
-        <h1 className="text-3xl font-black text-white sm:text-5xl">
+        <h1 className="text-3xl font-black text-white sm:text-5xl break-keep">
           넷플릭스 가격할인,
           <br />
           <span className="gradient-text-emerald">월 5,000원대</span>로 4K 프리미엄 즐기기
         </h1>
-        <p className="text-sm sm:text-base text-slate-400 max-w-xl mx-auto">
+        <p className="text-sm sm:text-base text-slate-400 max-w-xl mx-auto break-keep">
           광고형 요금제(월 7,000원)보다 저렴한 가격으로 최고 등급 4K UHD 프리미엄을 이용하세요.
         </p>
       </div>

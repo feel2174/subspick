@@ -21,8 +21,8 @@ export function TrustSection() {
 
       {/* Trust Details Grid */}
       <div className="mt-8">
-        <h3 className="text-center text-sm font-bold uppercase tracking-wider text-slate-400">
-          왜 겜스고를 통한 구독 공유가 안전한가요?
+        <h3 className="text-center text-sm font-bold uppercase tracking-wider text-slate-400 break-keep">
+          왜 <span className="whitespace-nowrap">겜스고(GamsGo)</span>를 통한 구독 공유가 안전한가요?
         </h3>
 
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">

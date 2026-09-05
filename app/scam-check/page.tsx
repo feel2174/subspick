@@ -17,21 +17,21 @@ export const metadata: Metadata = {
 export default function ScamCheckPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 flex flex-col gap-12">
-      <div className="text-center space-y-4">
+      <div className="text-center space-y-4 break-keep">
         <div className="inline-flex items-center gap-1.5 rounded-full border border-cyan-500/30 bg-cyan-950/40 px-3.5 py-1 text-xs font-semibold text-cyan-400">
           <ShieldCheck className="h-3.5 w-3.5" />
           투명한 팩트체크
         </div>
-        <h1 className="text-3xl font-black text-white sm:text-5xl">
-          겜스고, 진짜 <span className="gradient-text-emerald">사기 아니에요?</span>
+        <h1 className="text-3xl font-black text-white sm:text-5xl break-keep">
+          <span className="whitespace-nowrap">겜스고(GamsGo)</span>, 진짜 <span className="gradient-text-emerald">사기 아니에요?</span>
         </h1>
-        <p className="text-sm sm:text-base text-slate-400 max-w-xl mx-auto">
+        <p className="text-sm sm:text-base text-slate-400 max-w-xl mx-auto break-keep">
           인터넷 커뮤니티(디시, 뽐뿌, 클리앙)에 올라오는 논란과 걱정거리를 하나도 숨기지 않고 팩트만 정리했습니다.
         </p>
       </div>
 
       {/* 3 Major Concerns & Facts */}
-      <div className="space-y-4">
+      <div className="space-y-4 break-keep">
         <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 backdrop-blur-xl">
           <div className="flex items-start gap-3">
             <span className="flex h-6 w-6 items-center justify-center rounded-full bg-rose-500/20 text-xs font-bold text-rose-400 shrink-0 mt-0.5">
@@ -39,8 +39,8 @@ export default function ScamCheckPage() {
             </span>
             <div className="space-y-2">
               <h3 className="text-base font-bold text-white">결제하고 먹튀당하는 거 아닌가요?</h3>
-              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                <span className="font-semibold text-emerald-400">팩트: 먹튀가 불가능한 정식 결제 시스템입니다.</span> 겜스고는 무통장 입금이나 개인 송금을 유도하지 않으며, 카카오페이·토스·신용카드 등 국내외 공식 전자결제 대행사(PG)를 정식 탑재하고 있습니다. 결제 즉시 자동화 시스템으로 0분 만에 계정/초대 링크가 발급됩니다.
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed break-keep">
+                <span className="font-semibold text-emerald-400">팩트: 먹튀가 불가능한 정식 결제 시스템입니다.</span> <span className="whitespace-nowrap">겜스고</span>는 무통장 입금이나 개인 송금을 유도하지 않으며, 카카오페이·토스·신용카드 등 국내외 공식 전자결제 대행사(PG)를 정식 탑재하고 있습니다. 결제 즉시 자동화 시스템으로 0분 만에 계정/초대 링크가 발급됩니다.
               </p>
             </div>
           </div>

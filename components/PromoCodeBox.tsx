@@ -17,16 +17,16 @@ export function PromoCodeBox() {
     <div className="relative overflow-hidden rounded-2xl border border-emerald-500/40 bg-gradient-to-r from-emerald-950/40 via-slate-900 to-cyan-950/30 p-6 shadow-2xl backdrop-blur-xl sm:p-8">
       <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
         {/* Left Content */}
-        <div className="space-y-1.5 text-center sm:text-left">
+        <div className="space-y-1.5 text-center sm:text-left break-keep">
           <div className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-400">
             <Sparkles className="h-3.5 w-3.5" />
             서브스픽 전용 추가 프로모션
           </div>
-          <h3 className="text-xl font-extrabold text-white sm:text-2xl">
+          <h3 className="text-xl font-extrabold text-white sm:text-2xl break-keep">
             결제 전 프로모션 코드로 <span className="gradient-text-emerald">추가 할인</span> 받으세요
           </h3>
-          <p className="text-xs sm:text-sm text-slate-400">
-            겜스고 결제 페이지에서 프로모션 코드란에 입력 시 즉시 할인이 적용됩니다.
+          <p className="text-xs sm:text-sm text-slate-400 break-keep">
+            <span className="whitespace-nowrap">겜스고(GamsGo)</span> 결제 페이지에서 프로모션 코드란에 입력 시 즉시 할인이 적용됩니다.
           </p>
         </div>
 
