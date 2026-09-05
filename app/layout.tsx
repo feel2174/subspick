@@ -112,6 +112,12 @@ export default function RootLayout({
           name="naver-site-verification"
           content="7ba99226087643203aa0dec98bc5bbd50b31ba2b"
         />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title={`${SITE_NAME} RSS 피드`}
+          href={`${SITE_URL}/rss.xml`}
+        />
       </head>
       <body className="min-h-screen bg-[#090D16] text-slate-100 antialiased flex flex-col selection:bg-emerald-500 selection:text-slate-950">
         <JsonLd data={siteJsonLd} />
