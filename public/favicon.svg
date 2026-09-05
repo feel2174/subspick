@@ -9,7 +9,9 @@
       <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#10B981" flood-opacity="0.4"/>
     </filter>
   </defs>
+  <!-- Background with smooth rounded corner -->
   <rect width="100" height="100" rx="28" fill="#090D16" />
   <rect width="98" height="98" x="1" y="1" rx="27" fill="none" stroke="rgba(51, 65, 85, 0.4)" stroke-width="1.5" />
+  <!-- Lightning Bolt -->
   <path d="M55 16 L26 54 L48 54 L42 84 L74 46 L52 46 Z" fill="url(#neonEmerald)" filter="url(#glow)" />
 </svg>

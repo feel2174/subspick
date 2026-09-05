@@ -3,6 +3,7 @@ import { GAMSGO_AFFILIATE_URL, SITE_URL } from "@/lib/constants";
 import { HowToJsonLd } from "@/components/seo/HowToJsonLd";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { PromoCodeBox } from "@/components/PromoCodeBox";
+import { DirectAnswer } from "@/components/DirectAnswer";
 import { FaqSection } from "@/components/FaqSection";
 import { CheckCircle2, ArrowRight, Sparkles, Tv, MonitorPlay } from "lucide-react";
 
@@ -73,14 +74,26 @@ export default function NetflixPage() {
           공식 정가 대비 최대 70% 할인
         </div>
         <h1 className="text-3xl font-black text-white sm:text-5xl break-keep">
-          넷플릭스 가격할인,
+          넷플릭스 4K 프리미엄,
           <br />
-          <span className="gradient-text-emerald">월 5,000원대</span>로 4K 프리미엄 즐기기
+          <span className="gradient-text-emerald">월 5,000원대</span>로 보는 법
         </h1>
         <p className="text-sm sm:text-base text-slate-400 max-w-xl mx-auto break-keep">
-          광고형 요금제(월 7,000원)보다 저렴한 가격으로 최고 등급 4K UHD 프리미엄을 이용하세요.
+          공식 정가 월 17,000원의 최고급 4K UHD 요금제를 전용 프로필 핀번호 잠금으로 안전하게 이용하세요.
         </p>
       </div>
+
+      {/* AEO / GEO Direct Answer Block */}
+      <DirectAnswer
+        question="넷플릭스 4K 프리미엄을 월 5,000원대에 이용하는 방법은 무엇인가요?"
+        summary="겜스고(GamsGo)를 통해 넷플릭스 프리미엄(정가 17,000원) 계정의 독립된 1개 프로필을 배정받아 이용하는 방식입니다. 본인 전용 PIN 번호로 시청 기록과 찜 목록이 완벽히 분리되며, 스마트 TV, 모바일, PC 어디서나 4K 화질로 감상 가능합니다."
+        facts={[
+          "공식 정가 월 17,000원 대비 최대 70% 절약 (월 5,000원대)",
+          "4K UHD, HDR, Dolby Atmos 최고 화질 음질 그대로 지원",
+          "개인 PIN 번호 잠금으로 타인 시청 간섭 및 기록 노출 차단",
+          "프로모션 코드 TA9Y3 입력 시 추가 즉시 할인 적용",
+        ]}
+      />
 
       {/* Comparison Box */}
       <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-6 sm:p-8 backdrop-blur-xl">

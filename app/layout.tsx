@@ -52,6 +52,14 @@ export const metadata: Metadata = {
       "naver-site-verification": "7ba99226087643203aa0dec98bc5bbd50b31ba2b",
     },
   },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/icon.svg",
+  },
   openGraph: {
     title: `${SITE_NAME} — 스마트한 구독료 절약 대시보드`,
     description:
@@ -60,11 +68,21 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     locale: "ko_KR",
     type: "website",
+    images: [
+      {
+        url: `${SITE_URL}/og-image.svg`,
+        width: 1200,
+        height: 630,
+        alt: `${SITE_NAME} — OTT 및 AI 구독료 최대 70% 절약 플랫폼`,
+        type: "image/svg+xml",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} — 스마트한 구독료 절약 대시보드`,
     description: "유튜브 프리미엄·넷플릭스·챗GPT Plus 최대 70% 할인",
+    images: [`${SITE_URL}/og-image.svg`],
   },
 };
 
@@ -112,6 +130,8 @@ export default function RootLayout({
           name="naver-site-verification"
           content="7ba99226087643203aa0dec98bc5bbd50b31ba2b"
         />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="apple-touch-icon" href="/icon.svg" />
         <link
           rel="alternate"
           type="application/rss+xml"
