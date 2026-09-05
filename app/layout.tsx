@@ -47,6 +47,11 @@ export const metadata: Metadata = {
       "application/rss+xml": `${SITE_URL}/rss.xml`,
     },
   },
+  verification: {
+    other: {
+      "naver-site-verification": "7ba99226087643203aa0dec98bc5bbd50b31ba2b",
+    },
+  },
   openGraph: {
     title: `${SITE_NAME} — 스마트한 구독료 절약 대시보드`,
     description:
@@ -102,6 +107,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko" className="dark scroll-smooth">
+      <head>
+        <meta
+          name="naver-site-verification"
+          content="7ba99226087643203aa0dec98bc5bbd50b31ba2b"
+        />
+      </head>
       <body className="min-h-screen bg-[#090D16] text-slate-100 antialiased flex flex-col selection:bg-emerald-500 selection:text-slate-950">
         <JsonLd data={siteJsonLd} />
         <Header />
